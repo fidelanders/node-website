@@ -1,0 +1,31 @@
+{
+    "name": "simple-node-website",
+    "version": "0.1.0",
+    "description": "A simple website built with Node, Express and Pug",
+    "main": "server.js",
+    "scripts": {
+        "start": "npx nodemon server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/fidelanders/node-website.git"
+    },
+    "keywords": [
+        "website",
+        "pug",
+        "express",
+        "node",
+        "javascript"
+    ],
+    "author": "Fidelanders",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/fidelanders/node-website/issues"
+    },
+    "homepage": "https://github.com/fidelanders/node-website#readme",
+    "dependencies": {
+        "express": "^4.17.3",
+        "nodemon": "^2.0.15",
+        "pug": "^3.0.2"
+    }
+}
